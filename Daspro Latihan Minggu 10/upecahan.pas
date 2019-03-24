@@ -33,7 +33,7 @@ implementation
 	
 	procedure TulisPecahan(var P:pecahan);
 	begin
-		write(P.n);write('/');writeln(P.d);
+		write(P.n);write('/');write(P.d);
 	end;
 	
 	function IsLebihKecil(var P1,P2:pecahan):boolean;
